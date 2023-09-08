@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgb(55,61,149);
+    background: radial-gradient(circle, rgba(55,61,149,1) 0%, rgba(25,18,136,1) 56%, rgba(32,33,40,1) 100%);  
+}
+
+#header{
+    height: 50vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+#header-box{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(55,61,149);
+    background: radial-gradient(circle, rgba(55,61,149,1) 0%, rgba(25,18,136,1) 56%, rgba(32,33,40,1) 100%); 
+}
+
+#container{
+    width: 100%;
+    /* border: 1px solid white; */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-box h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header-box p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+}
+
+#navbar{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    background: rgb(55,61,149);
+    background: radial-gradient(circle, rgba(55,61,149,1) 0%, rgba(25,18,136,1) 56%, rgba(32,33,40,1) 100%);  
+    justify-content: space-between;
+}
+
+#comp-list{
+
+}
+
+#logo{
+    width: 14%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+#logo h1{
+    margin-top: 1.5rem;
+    color: rgba(203, 148, 10, 0.944);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    /* border: 1px solid black; */
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 10vh;
+}
+
+#nav-icons ul{
+    display: flex;
+    /* margin: 10px; */
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 22px;
+}
+
+#nav-icons ul a{
+    padding: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+#buttons{
+    margin-right: 20px;
+    height: 8vh;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#btn1{
+    border: 2px solid rgb(67, 118, 229);
+    width: 49%;
+    height: 5vh;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn2{
+    background-color: hsl(221, 76%, 58%);
+    width: 49%;
+    height: 5vh;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn3{
+    background-color: hsl(221, 76%, 58%);
+    width: 19%;
+    height: 5vh;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn3 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#btn1 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#btn2 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#comp-list{
+    color: whitesmoke;
+    text-align: center;
+}
+
+section{
+    height: 30vh;
+    background: rgb(55,61,149);
+    background: radial-gradient(circle, rgba(55,61,149,1) 0%, rgba(25,18,136,1) 56%, rgba(32,33,40,1) 100%);     
+
+}
+
+#upbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    align-items: center;
+    height: 30vh;   
+}
+
+#upbox h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#upbox p{
+    color: white;
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#lowbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    /* border: 1px solid black; */
+    align-items: center;
+    background: radial-gradient(circle, rgba(55,61,149,1) 0%, rgba(25,18,136,1) 56%, rgba(32,33,40,1) 100%);  
+    border-bottom: 1px solid white;
+}
+
+.cards{
+    /* border: 3px solid black; */
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(165, 176, 238);
+    border-radius: 30px;
+    transition: all .55s ease;
+    cursor: pointer;
+}
+
+.cards:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 10px white;
+
+}
+
+.cards i{
+    font-size: 3.5rem;
+    /* border: 1px solid black; */
+}
+
+.cards h3{
+    font-family: 'Raleway', sans-serif;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+#first-box{
+    /* border: 1px solid black; */
+    height: 70vh;
+    margin-top: 300px;
+    display: flex;
+    background: rgb(55,61,149);
+    background: radial-gradient(circle, rgba(55,61,149,1) 0%, rgba(25,18,136,1) 56%, rgba(32,33,40,1) 100%);     
+}
+
+#leftbox{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 186px 200px;
+    gap: 20px;
+    justify-content: center;
+    background: transparent;
+    margin-top: 40px;
+    /* border: 20px solid #4376e5; */
+}
+.leftbox-card{
+    border-radius: 10px;
+}
+
+#lc-1{
+    background: url(fabio-oyXis2kALVg-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#lc-2{
+    background: url(jievani-weerasinghe-NHRM1u4GD_A-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lc-3{
+    background: url(kanchanara-rayxJJNKyhc-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#lc-4{
+    background: url(milad-fakurian-wNsHBf_bTBo-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#rightbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;  
+}
+
+#rightbox h2{
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    color: white;
+}
+
+#rightbox p{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    width: 50%;
+}
+
+#lower-container{
+    width: 90%;
+    height: 30vh;
+    background: rgb(90,187,223);
+    background: radial-gradient(circle, rgba(90,187,223,1) 0%, rgba(32,93,228,1) 100%); 
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#lower-container h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#lower-container a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -10px;
+    padding: 14px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(67,118,229);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 15%;
+}
+
+main{
+    /* background: radial-gradient(circle, rgb(31, 33, 66) 0%, rgb(9, 5, 54) 56%, rgba(32,33,40,1) 100%);      */
+}
+
+#upper-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contents{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    /* padding-left: 100px; */
+    margin-top: 20px;
+}
+
+#footer-bar{
+    margin-top: 50px;
+    height: 40vh;
+    background-color: rgb(67, 118, 229);
+}
+
+#contents p{
+    width: 20%;
+}
+
+.content-list ul{
+    list-style: none;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.content-list ul a{
+    text-decoration: none;
+    color: aliceblue    ;
+}
+#cl2{
+    margin-left: 65px;
+}
+
+
+/* #slider{
+    height: 100px;
+    margin: auto;
+    position: relative;
+    border: 1   px solid black;
+}
+
+#slide-track{
+    display: flex;
+    border: 1px solid black;
+} */
+
