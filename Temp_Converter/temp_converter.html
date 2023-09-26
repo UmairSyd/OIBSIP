@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inter:wght@600&family=Lato&family=Noto+Sans+Georgian&family=Permanent+Marker&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Raleway&family=Rubik+Pixels&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="temp-converter">
+            <h1 class="title">Temperature Converter</h1>
+            <div class="result">
+                <span class="result-heading">Result(Celsius)</span>
+                <!-- <input type="text" id="result-heading"> -->
+                <h2 id="result-heading"></h2>
+            </div>
+            <div class="degree-farenheit">
+                <div class="degree">
+                    <label for="degrees">Degrees</label>
+                    <input type="text" name="degrees" id="degrees">
+                </div>
+                <div class="temp-field">
+                    <label for="temp">Type:</label>
+                    <select name="Temperature" id="temp" autocomplete="on">
+                        <option id="farenheit" value="farenheit">Farenheit</option>
+                        <option id="kelvin" value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div id="btn">
+                <button id="convert-btn">Convert</button>
+            </div>
+        </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>
